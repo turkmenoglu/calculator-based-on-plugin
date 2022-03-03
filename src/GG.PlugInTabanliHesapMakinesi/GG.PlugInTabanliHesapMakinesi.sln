@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{A711910C-FA45-43FA-8F72-1244E89D14BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainApplicationDomain", "MainApplicationDomain", "{7C5F2595-FD5C-4290-B9DD-5C793A02E91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlugInApplicationDomain", "PlugInApplicationDomain", "{8AF85C41-4AFE-49AC-A9B4-974842869D8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlugIns", "PlugIns", "{E5A56643-5466-4ABF-9AA8-DF52DC41A0CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.PlugInTabanliHesapMakinesi.Contracts", "GG.PlugInTabanliHesapMakinesi.Contracts\GG.PlugInTabanliHesapMakinesi.Contracts.csproj", "{8003DE3C-2F77-46AE-BF7F-BBEBD5C0AD14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.PlugInTabanliHesapMakinesi.PlugInStarter", "GG.PlugInTabanliHesapMakinesi.PlugInStarter\GG.PlugInTabanliHesapMakinesi.PlugInStarter.csproj", "{7507C721-5E19-4D75-AEF3-1CFBA50BD4AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.PlugInTabanliHesapMakinesi.PlugInEngine", "GG.PlugInTabanliHesapMakinesi.PlugInEngine\GG.PlugInTabanliHesapMakinesi.PlugInEngine.csproj", "{F711617E-E2F9-4FEC-8D83-675874528583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GG.PlugInTabanliHesapMakinesi.WinUI", "GG.PlugInTabanliHesapMakinesi.WinUI\GG.PlugInTabanliHesapMakinesi.WinUI.csproj", "{BFEEFEFC-95D9-4732-8126-1074D93837DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCSirketi.ToplamaPlugIn", "ABCSirketi.ToplamaPlugIn\ABCSirketi.ToplamaPlugIn.csproj", "{3872C02E-2E6E-4942-AD7C-37E272CD8FE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8003DE3C-2F77-46AE-BF7F-BBEBD5C0AD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8003DE3C-2F77-46AE-BF7F-BBEBD5C0AD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8003DE3C-2F77-46AE-BF7F-BBEBD5C0AD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8003DE3C-2F77-46AE-BF7F-BBEBD5C0AD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7507C721-5E19-4D75-AEF3-1CFBA50BD4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7507C721-5E19-4D75-AEF3-1CFBA50BD4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7507C721-5E19-4D75-AEF3-1CFBA50BD4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7507C721-5E19-4D75-AEF3-1CFBA50BD4AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F711617E-E2F9-4FEC-8D83-675874528583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F711617E-E2F9-4FEC-8D83-675874528583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F711617E-E2F9-4FEC-8D83-675874528583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F711617E-E2F9-4FEC-8D83-675874528583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEEFEFC-95D9-4732-8126-1074D93837DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEEFEFC-95D9-4732-8126-1074D93837DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEEFEFC-95D9-4732-8126-1074D93837DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEEFEFC-95D9-4732-8126-1074D93837DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3872C02E-2E6E-4942-AD7C-37E272CD8FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3872C02E-2E6E-4942-AD7C-37E272CD8FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3872C02E-2E6E-4942-AD7C-37E272CD8FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3872C02E-2E6E-4942-AD7C-37E272CD8FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8003DE3C-2F77-46AE-BF7F-BBEBD5C0AD14} = {A711910C-FA45-43FA-8F72-1244E89D14BC}
+		{7507C721-5E19-4D75-AEF3-1CFBA50BD4AF} = {7C5F2595-FD5C-4290-B9DD-5C793A02E91C}
+		{BFEEFEFC-95D9-4732-8126-1074D93837DD} = {7C5F2595-FD5C-4290-B9DD-5C793A02E91C}
+		{F711617E-E2F9-4FEC-8D83-675874528583} = {8AF85C41-4AFE-49AC-A9B4-974842869D8E}
+		{3872C02E-2E6E-4942-AD7C-37E272CD8FE3} = {E5A56643-5466-4ABF-9AA8-DF52DC41A0CF}
+	EndGlobalSection
+EndGlobal
